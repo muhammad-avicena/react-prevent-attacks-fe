@@ -4,7 +4,7 @@ function AvicenaDashboard() {
   return (
     <DashboardComponents
       OwnerName={"Avicena"}
-      urlApi={"http://localhost:5001"}
+      urlApi={"https://week15-api-avicena-dev.cyclic.cloud"}
     />
   );
 }
