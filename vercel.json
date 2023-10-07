@@ -1,5 +1,17 @@
 {
-    "rewrites":  [
+    "rewrites": [
       {"source": "/(.*)", "destination": "/"}
+    ],
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "Trusted-Domain",
+            "value": "https://week15.avicena.dev"
+          }
+        ]
+      }
     ]
   }
+  
